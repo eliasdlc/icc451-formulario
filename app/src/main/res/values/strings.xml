@@ -1,8 +1,38 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="correo_electronico">Correo electrónico</string>
-    <string name="contrasena">Contraseña</string>
-    <string name="nota_contrasena">La contraseña debe tener al menos 8 caracteres</string>
+    <string name="app_name">Perfil de Estudiante</string>
+
+    <string name="nombre">Nombre</string>
+    <string name="matricula">Matrícula</string>
+    <string name="carrera">Carrera</string>
+
+    <string name="hint_nombre">Ej. Juan Pérez</string>
+    <string name="hint_matricula">Ej. 2024-00123</string>
+
     <string name="guardar">Guardar</string>
+    <string name="editar">Editar</string>
+
+    <string name="error_nombre">El nombre es obligatorio</string>
+    <string name="error_matricula">La matrícula es obligatoria</string>
+    <string name="error_carrera">La carrera es obligatoria</string>
+
+    <string name="saludo">¡Hola, %1$s!</string>
+    <string name="aqui_esta_tu_informacion">Aquí está tu información:</string>
+    <string name="etiqueta_nombre">Nombre:</string>
+    <string name="etiqueta_matricula">Matrícula:</string>
+    <string name="etiqueta_carrera">Carrera:</string>
+
+    <string name="toast_guardado">Perfil guardado correctamente</string>
     <string name="foto_de_perfil">Foto de perfil</string>
+
+    <string-array name="carreras">
+        <item>Selecciona tu carrera</item>
+        <item>Ingeniería de Sistemas</item>
+        <item>Ingeniería en Ciencias de la Computación</item>
+        <item>Ingeniería Telemática</item>
+        <item>Ingeniería Industrial</item>
+        <item>Ingeniería Civil</item>
+        <item>Administración de Empresas</item>
+        <item>Medicina</item>
+        <item>Derecho</item>
+    </string-array>
 </resources>
